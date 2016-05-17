@@ -1,4 +1,6 @@
-# Angular2 + Webpack
+
+![](https://raw.githubusercontent.com/abrarShariar/ng2-webpack-starter/master/image.png)
+
 
 This is a barebone starter project for getting up and running with [Angular 2](https://angular.io) using the popular module bundler [Webpack](https://webpack.github.io/)
 The directory structure has been kept as similar as possible to the [Style Guide](https://angular.io/docs/ts/latest/guide/style-guide.html).
