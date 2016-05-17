@@ -18,6 +18,12 @@ $ npm install
 # start the webpack-dev-server
 $ npm start
 ```
+## Dependencies:
+  
+  * `node` and `npm`
+  * Ensure you're running Node (`v5.x.x`+) and NPM (`3.x.x`+)
+
+
 ## Before getting started
 
 Some important things to get acquainted with before you start coding :
@@ -90,8 +96,3 @@ Some important things to get acquainted with before you start coding :
     webpack-dev-server.js
     ```
     
-## Dependencies:
-  
-  * `node` and `npm`
-  * Ensure you're running Node (`v5.x.x`+) and NPM (`3.x.x`+)
-
