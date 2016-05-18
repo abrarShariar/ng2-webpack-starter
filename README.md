@@ -20,6 +20,9 @@ $ npm install
 # start the webpack-dev-server
 $ npm start
 ```
+
+Your site is running at [localhost:8081](http://localhost:8081/)
+
 ## Dependencies:
   
   * `node` and `npm`
@@ -98,3 +101,35 @@ Some important things to get acquainted with before you start coding :
     webpack-dev-server.js
     ```
     
+## Build
+
+```
+$ npm run build
+```
+
+You will find the **dist** folder at your project root for distribution.
+
+## Deploy
+
+**Deploy on Firebase**
+
+Before proceeding make sure you have [Firebase command line tools](https://www.firebase.com/docs/hosting/guide/deploying.html)
+
+At your project root enter :
+
+```
+$ firebase init
+# set your root as dist
+```
+firebase.json is generated. We will keep it as default here.
+
+```
+$ firebase deploy
+```
+Your site will be running at your selected firebase location.
+
+**Note:** Make sure you have set the ```dist``` folder as root.
+
+> <3 Angular 2
+
+> <3 Webpack
